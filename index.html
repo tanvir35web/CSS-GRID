@@ -14,9 +14,9 @@
             grid-template-columns: repeat(12, 1fr) ;
             grid-template-rows: 50px auto 50px;   
             grid-template-areas: 
-            "h h h h h h h h h h h h"
-            "m m m c c c c c c c c c"
-            "f f f f f f f f f f f f";
+            "m m m h h h h h h h h h"
+            "m m m c c c c c c c a a"
+            "m m m g g f f f f f f f";
         }
 
         .header {
@@ -31,6 +31,14 @@
         .footer {
             grid-area: f;
         }
+        .gerv {
+            grid-area: g;
+            background-color: #850b0b;
+        }
+        .aside {
+            grid-area: a;
+            background-color: #ff0088;
+        }
 
         
     </style>
@@ -41,6 +49,8 @@
         <div class="menu">Menu</div>
         <div class="content">Content</div>
         <div class="footer">Footer</div>
+        <div class="gerv">Ground</div>
+        <div class="aside">Aside</div>
     </div>
 </body>
 </html>
