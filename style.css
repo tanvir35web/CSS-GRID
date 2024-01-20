@@ -4,28 +4,25 @@
     box-sizing: border-box;
 }
 
-.container :nth-child(1), :nth-child(10) {
-    background-color: #f99090;
+.container .header {
+    background-color: #46926d6f;
 }
-.container :nth-child(2), :nth-child(6) {
-    background-color: #9b0606;
+.container .menu {
+    background-color: #4646926f;
 }
-.container :nth-child(3), :nth-child(7) {
-    background-color: #a1f990;
+.container .content {
+    background-color: #9251466f;
 }
-.container :nth-child(4), :nth-child(8) {
-    background-color: #1ef1a0;
+.container .footer {
+    background-color: #08a2176f;
 }
-.container :nth-child(5), :nth-child(9) {
-    background-color: #9c02b7;
-}
+
 
 .container div {
     padding: 10px;
-    border-radius: 1rem;
     display: grid;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 500;
 }
